@@ -3,6 +3,7 @@ package TRDZ.tasks;
 import java.util.*;
 
 public class Graph {
+//Данный файл это эксперименты с подходами которые тем немее послужили своей цели
 	private final HashMap<String,Integer> List;
 	private final ArrayList<My_Node> TrueList;
 	private final int[][] Matrix;

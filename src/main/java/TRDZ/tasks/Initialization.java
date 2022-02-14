@@ -1,10 +1,9 @@
 package TRDZ.tasks;
 
-public class Initialization
-	{
+public class Initialization {
 	public static void main(String[] args) {
 
-		Graph graph = new Graph(10);
+		Graph_cls graph = new Graph_cls(10);
 		graph.add_Node("Москва");
 		graph.add_Node("Питер");
 		graph.add_Node("Киев");
@@ -20,7 +19,7 @@ public class Initialization
 		System.out.println(graph);
 
 		graph.start_search("Токио","Питер");
-		graph.start_search("Питер","Токио");
+		//graph.start_search("Питер","Токио");
 		//graph.start_search("Питер","Москва");
 		//graph.start_search("Питер","Питер");
 
