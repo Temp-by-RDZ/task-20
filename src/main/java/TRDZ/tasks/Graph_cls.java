@@ -7,6 +7,7 @@ import java.util.Stack;
 
 public class Graph_cls
 	{
+	//Воспроизведение лекции
 	private final List<Vertex> vertexList;
 	private final int[][] Matrix;
 	private final int[][] seen;
